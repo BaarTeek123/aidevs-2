@@ -1,8 +1,7 @@
 from UTILS.settings import OPENAI_API_KEY
-
 from pathlib import Path
 import sys
-# Add the parent directory to sys.path
+
 sys.path.append(str(Path(__file__).parent.parent))
 from utils import api_request
 
